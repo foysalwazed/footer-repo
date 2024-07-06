@@ -1,0 +1,154 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 20px;
+    font-size: 14px;
+}
+
+/* Layout for columns */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/* Individual column styling */
+.col {
+    flex: 1;
+    margin-bottom: 20px;
+}
+
+/* Company logo styling */
+.col img {
+    width: 150px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/* Heading (h3) styling with underline effect */
+.col h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    position: relative;
+    display: inline-block;
+}
+
+.col h3 .underline {
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+    transform-origin: left;
+    transform: scaleX(0); /* Initially hidden */
+    transition: transform 0.3s ease;
+}
+
+.col h3:hover .underline {
+    transform: scaleX(1); /* On hover, reveal underline */
+}
+
+/* Styling for links in lists */
+.col ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.col ul li {
+    margin-bottom: 8px;
+}
+
+.col ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.col ul li a:hover {
+    color: #4CAF50;
+}
+
+/* Styling for paragraphs and contact information */
+.col p, .col .email-id, .col h4 {
+    margin-bottom: 8px;
+}
+
+/* Newsletter form styling */
+.col form {
+    display: flex;
+    align-items: center;
+}
+
+.col form input[type="email"] {
+    padding: 8px;
+    border: none;
+    border-radius: 4px 0 0 4px;
+    width: 200px;
+}
+
+.col form button {
+    padding: 8px 20px;
+    border: none;
+    background-color: #4CAF50;
+    color: #fff;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.col form button:hover {
+    background-color: #45a049;
+}
+
+/* Social icons styling */
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+    background-color: #4CAF50;
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
+}
+
+.social-icons a:hover {
+    background-color: #45a049;
+}
+
+/* Horizontal rule styling */
+hr {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 20px 0;
+}
+
+/* Copyright text styling */
+.copyright {
+    text-align: center;
+    font-size: 12px;
+    color: #ccc;
+}

@@ -1,0 +1,46 @@
+<footer>
+<div class="row">
+    <div class="col">
+        <img src="assets/0516238ddb8f35a2193e063d2db18e5b.jpg" alt="Company Logo">
+        <p>In this video you will learn how to make a website footer using HTML and CSS. We will add animation in the footer title text and this footer design will be completely responsive. We will design this footer using HTML and CSS.</p>
+    </div>
+    <div class="col">
+        <h3>Links <div class="underline"><span></span></div></h3>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+    <div class="col">
+        <h3>Office <div class="underline"><span></span></div></h3>
+        <p>ITPL Road</p>
+        <p>Dhaka, Bangladesh</p>
+        <p>Narayanganj 2546223</p>
+        <p class="email-id">abc@gmail.com</p>
+        <h4>+8801636491152</h4>
+    </div>
+    <div class="col">
+        <h3>Newsletter <div class="underline"><span></span></div></h3>
+        <form>
+            <i class="far fa-envelope"></i>
+            <input type="email" placeholder="Enter your email id" required>
+            <button type="submit"><i class="fas fa-arrow-right"></i></button>
+        </form>
+        <div class="social-icons">
+
+
+          
+            
+            <a href="#" class="fa-brands fa-facebook" aria-label="Facebook"></a>
+            <a href="#" class="fab fa-twitter" aria-label="Twitter"></a>
+            <a href="#" class="fab fa-instagram" aria-label="Instagram"></a>
+            <a href="#" class="fab fa-linkedin" aria-label="LinkedIn"></a>
+        </div>
+    </div>
+</div>
+<hr>
+<p class="copyright">Easy for Work 2024 - All rights reserved</p>
+</footer>
